@@ -5,8 +5,8 @@ export interface ILogoProps {}
 
 export function Logo(props: ILogoProps) {
     return (
-        <p>
-            <a href="/">1983</a>
+        <p className="logo-wrapper">
+            <label className="logo">1983</label>
         </p>
     );
 }

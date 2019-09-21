@@ -1,29 +1,27 @@
 
 /*Neon*/
-p {
+.logo-wrapper {
     text-align: center;
     font-size: 7em;
     margin: 20px 0 20px 0;
-    color: #ba01ff;
+    color: #6c0178;
     font-family: Monoton;
 }
 
-a {
+.logo {
     text-decoration: none;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
 }
 
-a:hover {
+.logo:hover {
     -webkit-animation: neon6 1.5s ease-in-out infinite alternate;
     -moz-animation: neon6 1.5s ease-in-out infinite alternate;
     animation: neon6 1.5s ease-in-out infinite alternate;
-}
-
-p a:hover {
     color: #ffffff;
 }
+
 /*glow for webkit*/
 
 @-webkit-keyframes neon6 {
